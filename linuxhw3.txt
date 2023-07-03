@@ -1,0 +1,20 @@
+   0 mkdir /tmp/hw3 && touch /tmp/hw3/daniel.txt && date >> /tmp/hw3/daniel.txt
+   1 /tmp/hw3/daniel.txt nano
+   2 cd /tmp/hw3
+   3 ls
+   4 daniel.txt nano
+   5 nano daniel.txt
+   6 cd
+   7 cd /
+   8 df -h | awk '{print $3}' >> /tmp/hw3/daniel.txt
+   9 cd /tmp/hw3
+  10 cat daniel.txt
+  11 history | tail -5 >> daniel.txt
+  12 cd && cs /proc
+  13 cd /proc
+  14 sed -n '2p' /proc/cpuinfo >> /tmp/hw3/daniel.txt
+  15 cd /tmp/hw3
+  16 cat daniel.txt
+  17 nano daniel.txt
+  18 echo "в пункте 3. по заданию вместо echo я дописал homework 3 используя nano"
+  19 history > linuxhw3.txt
